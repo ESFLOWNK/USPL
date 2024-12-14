@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: rgb(241, 241, 222);
+    color: rgb(128, 83, 41);
+}
+
+header {
+    background-color: brown;
+    color: white;
+}
+
+header * {
+    margin: 0;
+    padding: 0.3rem;
+}
+
+header h1{
+    padding-left: 8px;
+}
+
+.content {
+    margin-left: 8px;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.level2 {
+    margin-left: 2rem;
+}
+
+.code {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    width: fit-content;
+    padding-top: 1px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    min-width: 16rem;
+}
+
+.code p {
+    padding-left: 1rem;
+    font-size: 0.62rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.code hr{
+    margin-top: 0;
+    margin-left: 0.6rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-color: gray;
+}
+
+.code code{
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    display: block;
+}
+
+.code .comment {
+    color:rgb(165, 165, 165);
+}
+
+.level3 {
+    margin-left: 2.5rem;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+    transition: all ease-out 0.3s;
+}
+
+a:hover {
+    padding-left: 1rem;
+    color: rgb(189, 31, 63);
+    text-shadow: 1px 1px 3px rgb(136, 16, 40);
+}
