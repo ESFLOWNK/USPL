@@ -1,0 +1,38 @@
+//Comment
+
+~"Hello world!" //Print Hello World
+
+$var null //First is the variable name, the second is the value
+
+$var "I'm alive!"
+// Variables types are: str, int, dec (decimal), list and keymap, it's type dynamic
+
+?$var = "I'm alive!" //If statement
+~"Hallo!"
+. //End of every statement
+
+#myFunction <arg1> <arg2> //The first thing is the name, things between <>'s are the parameters.
+~$arg1+" "+$arg2
+. //End of every statement
+
+$i //default value: null
+!!0 30 $i //For statement. 1. From, 2. To, 3. Where
+~$i
+.
+
+$i 0 //Assign 0 to i
+!$i < 30
+~$i
+$i +1 // add 1 to i
+.
+
+$objects <2> <3> <4> //Create a list
+~objects^0 //Display element in the index 0 of objects
+
+$i //Set i to null
+!!list $objects $i//For statement for lists
+~$i
+.
+
+$map <name "John"> //Create a keymap, between the <>'s the first value is the key
+//it will always be treated as a str, and the second is the value.
