@@ -11,6 +11,7 @@
 
 # Remember to
 
+- Make an detailed issue if any.
 - Add documentation.
 - Use the current formatting style.
 - Use apropiate commit messages, the same for pull requests and branch names.
